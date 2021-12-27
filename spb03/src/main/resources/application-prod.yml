@@ -1,0 +1,10 @@
+#prod
+#服务器端口
+server:
+  port : 7777
+  context-path : /sprod03
+
+#数据库四属性
+spring:
+  datasource:
+    driver-class-name : sun.jdbc.odbc.JdbcOdbcDriver
